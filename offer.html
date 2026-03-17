@@ -1,247 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Neuro Silence Offer</title>
-    <meta name="description" content="Exclusive US DTC offers for Neurocept. Save up to 50%, free US shipping on select bundles, 60-Day money-back guarantee.">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/all.min_1.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <base target="_top">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Special Offer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+}
+
+.products {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border: 2px solid transparent;
+}
+
+.card.best {
+    border: 2px solid #00c853;
+    transform: scale(1.05);
+}
+
+.badge {
+    background: #ff0000;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.best .badge {
+    background: #00c853;
+}
+
+.bottles {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.price-old {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.price {
+    font-size: 26px;
+    font-weight: 800;
+    margin: 5px 0;
+}
+
+.shipping {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: block;
+    background: #ff0000;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #cc0000;
+}
+
+.best .btn {
+    background: #00c853;
+}
+
+.best .btn:hover {
+    background: #009624;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+</style>
 </head>
 
 <body>
-    <section class="promo-banner">
-        <div class="banner-content">
-            <h2>Claim your Discounted NeuroSilence now <span class="highlight">Before Stock Runs Out!</span></h2>
-            <p>Its your last chance, buy now</p>
+
+<section class="products">
+
+    <div class="title">Claim Your Discounted NeuroSilence</div>
+    <div class="subtitle">Limited stock available – act now</div>
+
+    <div class="grid">
+
+        <!-- 6 Bottles -->
+        <div class="card best">
+            <div class="badge">BEST VALUE</div>
+            <div class="bottles">6 BOTTLES</div>
+            <p>180 Day Supply</p>
+            <div class="price-old">$588</div>
+            <div class="price">$294</div>
+            <div class="shipping">Free Shipping</div>
+            <a href="https://lp.neutrau.site/click/2" class="btn">BUY NOW</a>
         </div>
-    </section>
 
-    <div class="ofertas-container" role="list" aria-label="Product bundles">
+        <!-- 3 Bottles -->
+        <div class="card">
+            <div class="badge">MOST POPULAR</div>
+            <div class="bottles">3 BOTTLES</div>
+            <p>90 Day Supply</p>
+            <div class="price-old">$294</div>
+            <div class="price">$217</div>
+            <div class="shipping">Free Shipping</div>
+            <a href="https://lp.neutrau.site/click/3" class="btn">BUY NOW</a>
+        </div>
 
-        <!-- LEFT: 2 bottles -->
-        <article class="card card--side card--left" role="listitem" aria-labelledby="h-2b">
-            <div class="card__kicker-less" id="h-2b">Basic</div>
-            <div class="mobile" aria-label="2 bottles bundle">
-                <div class="pote-mobile">
-                    <div class="h3">2 BOTTLES</div>
-                    <div class="sub">60 DAY SUPPLY</div>
-                    <img class="pote" src="images/2.png" alt="2 Neurocept bottles">
-                </div>
-                <div class="pote-mobile">
-                    <div style="display:flex;justify-content:center;align-items:center;gap:12px">
-                        <div class="was"><s>$217</s></div>
-                        <p class="now now--yellow" aria-label="Now one hundred and seventy seven dollars">$177</p>
-                    </div>
-                    <div class="ship">+ <strong>$9.99</strong> SHIPPING</div>
-                    <ul class="bullets" aria-label="Key benefits">
-                        <li style="color:#2a5ba5"><i class="fa-solid fa-circle-check check check--blue" aria-hidden="true"></i>YOU SAVE $40</li>
-                        <li><i class="fa-solid fa-circle-check check check--black" aria-hidden="true"></i>15% DISCOUNT</li>
-                        <li><i class="fa-solid fa-circle-check check check--black" aria-hidden="true"></i>60-DAY GUARANTEE</li>
-                    </ul>
-                </div>
-            </div>
-            <a class="btn" href="#" data-click-path="/click/1" aria-label="Buy 2 bottles now">BUY NOW</a>
-            <div class="cards-pay" aria-hidden="true">
-                <img src="images/cards.webp" alt="Accepted payment methods">
-            </div>
-            <div class="total">Total: <s>$217</s> <strong>$177</strong> <br><small>+ $9.99 SHIPPING</small></div>
-        </article>
+        <!-- 2 Bottles -->
+        <div class="card">
+            <div class="badge">BASIC</div>
+            <div class="bottles">2 BOTTLES</div>
+            <p>60 Day Supply</p>
+            <div class="price-old">$217</div>
+            <div class="price">$177</div>
+            <div class="shipping">+ $9.99 Shipping</div>
+            <a href="https://lp.neutrau.site/click/1" class="btn">BUY NOW</a>
+        </div>
 
-        <!-- CENTER: 6 bottles -->
-        <article class="card card--best" role="listitem" aria-labelledby="h-6b">
-            <div class="card__kickermain">BEST VALUE!</div>
-            <div class="card__inner">
-                <div class="mobile" aria-label="6 bottles bundle">
-                    <div class="pote-mobile">
-                        <div class="h3 h3--xl surprise-bounce" id="h-6b">6 BOTTLES</div>
-                        <div class="sub-main">180 DAY SUPPLY</div>
-                        <img class="pote" src="images/6.png" alt="6 Neurocept bottles">
-                    </div>
-                    <div class="pote-mobile">
-                        <div style="display:flex;justify-content:center;align-items:center;gap:12px">
-                            <div class="was"><s style="text-decoration-color:black">$588</s></div>
-                            <p class="now now--green" aria-label="Now two hundred and ninety four dollars">$294</p>
-                        </div>
-                        <div class="ship"><strong>FREE <span style="color:white">SHIPPING</span></strong></div>
-                        <ul class="bullets">
-                            <li style="color:#ffd700"><i class="fa-solid fa-circle-check check check--yellow" aria-hidden="true"></i>YOU SAVE $294</li>
-                            <li><i class="fa-solid fa-circle-check check check--green" aria-hidden="true"></i>50% DISCOUNT</li>
-                            <li><i class="fa-solid fa-circle-check check check--green" aria-hidden="true"></i>3 FREE BOTTLES</li>
-                        </ul>
-                        <div class="sub" style="color:var(--yellow);margin:10px 0 4px;-webkit-text-stroke:.5px #000">
-                            60-DAY GUARANTEE
-                        </div>
-                        <div class="sub surprise-bounce" style="color:#5CE1E6;-webkit-text-stroke:.5px #000">+ SURPRISE 🎁</div>
-                    </div>
-                </div>
-                <a class="btn btn--green" href="#" data-click-path="/click/2" aria-label="Buy 6 bottles now">BUY NOW</a>
-                <div class="cards-pay" aria-hidden="true">
-                    <img src="images/cards.webp" alt="Accepted payment methods">
-                </div>
-                <div class="sub" style="color:#e9e0ff;margin-top:8px;-webkit-text-stroke:.5px #000">
-                    60-DAY GUARANTEE
-                    <br><strong style="color: var(--yellow)">+ FREE SHIPPING</strong>
-                </div>
-            </div>
-        </article>
-
-        <!-- RIGHT: 3 bottles -->
-        <article class="card card--side card--right" role="listitem" aria-labelledby="h-3b">
-            <div class="card__kicker" id="h-3b">Good Value</div>
-            <div class="mobile" aria-label="3 bottles bundle">
-                <div class="pote-mobile">
-                    <div class="h3">3 BOTTLES</div>
-                    <div class="sub">90 DAY SUPPLY</div>
-                    <img class="pote" src="images/3.png" alt="3 Neurocept bottles">
-                </div>
-                <div class="pote-mobile">
-                    <div style="display:flex;justify-content:center;align-items:center;gap:12px">
-                        <div class="was"><s>$294</s></div>
-                        <p class="now now--yellow" aria-label="Now two hundred and seventeen dollars">$217</p>
-                    </div>
-                    <div class="ship"><strong>FREE SHIPPING</strong></div>
-                    <ul class="bullets">
-                        <li style="color:#2a5ba5"><i class="fa-solid fa-circle-check check check--blue" aria-hidden="true"></i>YOU SAVE $77</li>
-                        <li><i class="fa-solid fa-circle-check check check--black" aria-hidden="true"></i>1 FREE BOTTLE</li>
-                        <li><i class="fa-solid fa-circle-check check check--black" aria-hidden="true"></i>30% DISCOUNT</li>
-                        <li><i class="fa-solid fa-circle-check check check--black" aria-hidden="true"></i>60-DAY GUARANTEE</li>
-                    </ul>
-                </div>
-            </div>
-            <a class="btn" href="#" data-click-path="/click/3" aria-label="Buy 3 bottles now">BUY NOW</a>
-            <div class="cards-pay" aria-hidden="true">
-                <img src="images/cards.webp" alt="Accepted payment methods">
-            </div>
-            <div class="total">Total: <s>$294</s> <strong>$217</strong> <br><small><span style="color:red">+ FREE</span> SHIPPING</small></div>
-        </article>
     </div>
 
-    <section class="promo-banner">
-        <div class="banner-content">
-            <h2>Claim your Discounted NeuroSilence now <span class="highlight">Before Stock Runs Out!</span></h2>
-            <p>Its your last chance, buy now</p>
-        </div>
-    </section>
+</section>
 
-    <div class="ofertas-container" role="list" aria-label="Product bundles">
-
-        <!-- LEFT: 2 bottles -->
-        <article class="card card--side card--left" role="listitem" aria-labelledby="h-2b-bottom">
-            <div class="card__kicker-less" id="h-2b-bottom">Basic</div>
-            <div class="mobile" aria-label="2 bottles bundle">
-                <div class="pote-mobile">
-                    <div class="h3">2 BOTTLES</div>
-                    <div class="sub">60 DAY SUPPLY</div>
-                    <img class="pote" src="2.png" alt="2 Neurocept bottles">
-                </div>
-                <div class="pote-mobile">
-                    <div style="display:flex;justify-content:center;align-items:center;gap:12px">
-                        <div class="was"><s>$217</s></div>
-                        <p class="now now--yellow" aria-label="Now one hundred and seventy seven dollars">$177</p>
-                    </div>
-                    <div class="ship">+ <strong>$9.99</strong> SHIPPING</div>
-                    <ul class="bullets" aria-label="Key benefits">
-                        <li style="color:#2a5ba5"><i class="fa-solid fa-circle-check check check--blue" aria-hidden="true"></i>YOU SAVE $40</li>
-                        <li><i class="fa-solid fa-circle-check check check--black" aria-hidden="true"></i>15% DISCOUNT</li>
-                        <li><i class="fa-solid fa-circle-check check check--black" aria-hidden="true"></i>60-DAY GUARANTEE</li>
-                    </ul>
-                </div>
-            </div>
-            <a class="btn" href="https://lp.neutrau.site/click/1" aria-label="Buy 2 bottles now">BUY NOW</a>
-            <div class="cards-pay" aria-hidden="true">
-                <img src="cards.webp" alt="Accepted payment methods">
-            </div>
-            <div class="total">Total: <s>$217</s> <strong>$177</strong> <br><small>+ $9.99 SHIPPING</small></div>
-        </article>
-
-        <!-- CENTER: 6 bottles -->
-        <article class="card card--best" role="listitem" aria-labelledby="h-6b-bottom">
-            <div class="card__kickermain">BEST VALUE!</div>
-            <div class="card__inner">
-                <div class="mobile" aria-label="6 bottles bundle">
-                    <div class="pote-mobile">
-                        <div class="h3 h3--xl surprise-bounce" id="h-6b-bottom">6 BOTTLES</div>
-                        <div class="sub-main">180 DAY SUPPLY</div>
-                        <img class="pote" src="6.png" alt="6 Neurocept bottles">
-                    </div>
-                    <div class="pote-mobile">
-                        <div style="display:flex;justify-content:center;align-items:center;gap:12px">
-                            <div class="was"><s style="text-decoration-color:black">$588</s></div>
-                            <p class="now now--green" aria-label="Now two hundred and ninety four dollars">$294</p>
-                        </div>
-                        <div class="ship"><strong>FREE <span style="color:white">SHIPPING</span></strong></div>
-                        <ul class="bullets">
-                            <li style="color:#ffd700"><i class="fa-solid fa-circle-check check check--yellow" aria-hidden="true"></i>YOU SAVE $294</li>
-                            <li><i class="fa-solid fa-circle-check check check--green" aria-hidden="true"></i>50% DISCOUNT</li>
-                            <li><i class="fa-solid fa-circle-check check check--green" aria-hidden="true"></i>3 FREE BOTTLES</li>
-                        </ul>
-                        <div class="sub" style="color:var(--yellow);margin:10px 0 4px;-webkit-text-stroke:.5px #000">
-                            60-DAY GUARANTEE
-                        </div>
-                        <div class="sub surprise-bounce" style="color:#5CE1E6;-webkit-text-stroke:.5px #000">+ SURPRISE 🎁</div>
-                    </div>
-                </div>
-                <a class="btn btn--green" href="https://lp.neutrau.site/click/2" aria-label="Buy 6 bottles now">BUY NOW</a>
-                <div class="cards-pay" aria-hidden="true">
-                    <img src="cards.webp" alt="Accepted payment methods">
-                </div>
-                <div class="sub" style="color:#e9e0ff;margin-top:8px;-webkit-text-stroke:.5px #000">
-                    60-DAY GUARANTEE
-                    <br><strong style="color: var(--yellow)">+ FREE SHIPPING</strong>
-                </div>
-            </div>
-        </article>
-
-        <!-- RIGHT: 3 bottles -->
-        <article class="card card--side card--right" role="listitem" aria-labelledby="h-3b-bottom">
-            <div class="card__kicker" id="h-3b-bottom">Good Value</div>
-            <div class="mobile" aria-label="3 bottles bundle">
-                <div class="pote-mobile">
-                    <div class="h3">3 BOTTLES</div>
-                    <div class="sub">90 DAY SUPPLY</div>
-                    <img class="pote" src="3.png" alt="3 Neurocept bottles">
-                </div>
-                <div class="pote-mobile">
-                    <div style="display:flex;justify-content:center;align-items:center;gap:12px">
-                        <div class="was"><s>$294</s></div>
-                        <p class="now now--yellow" aria-label="Now two hundred and seventeen dollars">$217</p>
-                    </div>
-                    <div class="ship"><strong>FREE SHIPPING</strong></div>
-                    <ul class="bullets">
-                        <li style="color:#2a5ba5"><i class="fa-solid fa-circle-check check check--blue" aria-hidden="true"></i>YOU SAVE $77</li>
-                        <li><i class="fa-solid fa-circle-check check check--black" aria-hidden="true"></i>1 FREE BOTTLE</li>
-                        <li><i class="fa-solid fa-circle-check check check--black" aria-hidden="true"></i>30% DISCOUNT</li>
-                        <li><i class="fa-solid fa-circle-check check check--black" aria-hidden="true"></i>60-DAY GUARANTEE</li>
-                    </ul>
-                </div>
-            </div>
-            <a class="btn" href="https://lp.neutrau.site/click/3" aria-label="Buy 3 bottles now">BUY NOW</a>
-            <div class="cards-pay" aria-hidden="true">
-                <img src="cards.webp" alt="Accepted payment methods">
-            </div>
-            <div class="total">Total: <s>$294</s> <strong>$217</strong> <br><small><span style="color:red">+ FREE</span> SHIPPING</small></div>
-        </article>
-    </div>
-
-    <footer style="display: flex; width: 100%; background-color: black; color: white; padding: 16px; font-weight: 700; justify-content: center;">
-        © 2026 Neurocept. All rights reserved.
-    </footer>
-
-    <script>
-        (function () {
-            const currentDomain = window.location.hostname;
-            const urlParams = window.location.search;
-            const baseUrl = `https://lp.${currentDomain}`;
-
-            document.querySelectorAll('a[data-click-path]').forEach(link => {
-                const clickPath = link.getAttribute('data-click-path');
-                link.href = baseUrl + clickPath + urlParams;
-            });
-        })();
-    </script>
 </body>
 </html>
